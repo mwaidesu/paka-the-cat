@@ -4,6 +4,15 @@ img{
   align-items: center;
 }
 
+/* .float-div{
+  display: flex;
+} */
+
+.flag{
+  float: right;
+
+}
+
 table, th, td{
   border: 1px solid black;
 }
@@ -11,4 +20,13 @@ table, th, td{
 table{
   width: 70%;
   text-align: center;
+}
+
+/* .bg-pic{
+  background-image: url("/images/flag.gif");
+  background-size: cover;
+} */
+
+.nav-item:hover{
+  background-color: aqua;
 }
